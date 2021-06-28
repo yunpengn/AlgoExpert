@@ -4,11 +4,11 @@ name: CI pipeline
 on:
   # When pushing commit(s) to master or adding any tag(s).
   push:
-    branches: [ master ]
+    branches: [ main ]
     tags: [ '**' ]
   # When submiting pull request to master.
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     tags: [ '**' ]
   # Every Monday, 1:00 am (UTC).
   schedule:
